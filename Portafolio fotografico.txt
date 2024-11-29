@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <style> 
+   /* Estilo General */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000; /* Fondo negro para toda la página */
+    color: #ffffff; /* Color de texto blanco por defecto */
+}
+
+header {
+    background: #000000; /* Fondo negro */
+    color: #FF0000; /* Letras rojas en el encabezado */
+    text-align: left;  /*:-20px Alineación a la izquierda */
+    padding: 10px;
+    margin-left: 20px;
+}
+.logo {
+    display: flex;
+    height:95px;
+    
+    
+}
+header h4 {
+    margin: 0;
+    color: #ffffff; /* Título blanco */
+    margin-left:-70px;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Menú alineado a la izquierda */
+    gap: 4%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FF0000; /* Letras rojas en los enlaces del menú */
+    font-weight: bold;
+}
+nav ul li a:hover { /* efecto al pasar el mouse por el menu */
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+} 
+
+main {
+    padding: 5px;
+    background: #000000; /* Fondo negro para el contenido */
+    color: #ffffff; /* Texto blanco */
+    max-width: 1300px; /* Limitar el ancho máximo */
+    margin: 0 auto; /* Centrar el contenido */
+}
+h1{
+  position: static;
+   text-align: center;
+  width: 400px;
+  border: 30px solid white;
+  padding: 60px ;
+  margin:auto;
+  background-color: black;
+}
+.portada{
+    background-image: url("https://static.wixstatic.com/media/620140_3c78bb8560924ef4954b0300af44756d~mv2.jpg/v1/fill/w_403,h_293,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/620140_3c78bb8560924ef4954b0300af44756d~mv2.jpg");
+    width: auto;
+}
+section {
+    padding: 40px 20px;
+    background: #000000; /* Fondo negro para cada sección */
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #ffffff; /* Títulos en blanco */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section p {
+    color: #ffffff; /* Texto blanco en las descripciones */
+    text-align: center;
+}
+
+footer {
+    background: #FF0000;
+    color: black; /* Letra roja en el pie de página */
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.imagen-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imagen-centro img {
+    max-width: 100%;
+    height: auto;
+}
+
+   </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Fotográfico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>             
+        <nav>
+            <ul>
+                 <div class="logo">
+                <img src="https://cdn.discordapp.com/attachments/956248367393034250/1311789899459858494/logo.jpg?ex=674a230b&is=6748d18b&hm=3d34ec9fd240506e9b348fe35fcf16418139c0f0fa88c2b46333e02e63826b72&" alt="Logo">
+            </div>
+                <h4>PORTAFOLIO FOTOGRÁFICO</h4>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#presentacion">Presentación</a></li>
+                <li><a href="#urbanas">Urbanas</a></li>
+                <li><a href="#experimental">Experimental</a></li>
+                <li><a href="#bellakas">Bellakas</a></li>
+                <li><a href="#estudios">Estudios</a></li>
+                <li><a href="#retratos">Retratos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        
+        <div class="portada">
+            <h1>PORTAFOLIO FOTOGRÁFICO</h1>
+                
+            </div>
+        <section id="inicio">
+            <h2>¡Bienvenidos!</h2>
+            <p>Somos Valentina y Deisy , dos apasionadas de la fotografía con el propósito de capturar momentos que cuentan historias y transmiten emociones. A través de nuestras imágenes, buscamos resaltar la belleza en lo cotidiano, visibilizar realidades que muchas veces pasan desapercibidas, y crear una conexión profunda entre lo que vemos y lo que sentimos. Nos encanta explorar nuevas perspectivas y cada fotografía es una oportunidad para compartir nuestro arte y nuestra visión única.
+Únete a nosotras en este viaje visual, donde cada imagen es una historia por descubrir.</p>
+<div class="imagen-centro">
+                <img src="https://static.wixstatic.com/media/620140_3c78bb8560924ef4954b0300af44756d~mv2.jpg/v1/fill/w_993,h_722,al_c,q_85,enc_avif,quality_auto/620140_3c78bb8560924ef4954b0300af44756d~mv2.jpg" 
+alt="Fotografía profesional" class="image">
+
+
+            </div>
+
+            <!-- Imagen del inicio centrada -->
+            
+        </section>
+
+        <section id="urbanas">
+    <h2>Urbanas</h2>
+    <p>En esta sección encontrarás tomas que suelo tomar a diario, en su mayoría son tomas bastante urbanas, tanto de personas del común como gente que se parcha por ahí en la calle, amigos y demás. Es increíble ver los estilos que se pueden encontrar en las calles. Siempre hay algo que detallar, simplemente es cuestión de atención y detalle.</p>
+    
+    <!-- Imagen de Fotografía destacada -->
+    <div class="fotografía-destacada" style="text-align: center; margin-top: 20px;">
+        <img src="https://static.wixstatic.com/media/620140_7180ce209b3841c8addbecee8411e631~mv2.jpg/v1/fill/w_926,h_800,al_c,q_85,enc_avif,quality_auto/620140_7180ce209b3841c8addbecee8411e631~mv2.jpg" 
+        alt="Fotografía creativa" class="image" style="max-width: 100%; height: auto; border-radius: 10px;">
+    </div>
+</section>
+
+
+      <section id="experimental">
+    <h2>Experimental</h2>
+    <p>La fotografía experimental es un viaje hacia lo desconocido, donde exploramos nuevas formas, perspectivas y técnicas para desafiar lo convencional. En esta categoría, nos aventuramos a capturar imágenes que no solo impresionan, sino que invitan a la reflexión. Cada foto busca trascender los límites de lo tradicional, combinando creatividad y experimentación para crear composiciones únicas y audaces.</p>
+
+    <div style="display: flex; flex-direction: column; align-items: center; margin-top: 20px; gap: 20px;">
+        <!-- Imagen Experimental 1 centrada -->
+        <div style="width: 100%; max-width: 984px; display: flex; justify-content: center;">
+            <img src="https://static.wixstatic.com/media/620140_79ca7e7cd26243d398882fe8f3eb352b~mv2.jpg/v1/fill/w_984,h_416,al_c,q_85,enc_avif,quality_auto/620140_79ca7e7cd26243d398882fe8f3eb352b~mv2.jpg" 
+            alt="Fotografía panorámica" class="image" style="width: 100%; height: auto; border-radius: 10px;">
+        </div>
+
+        <!-- Imagen Experimental 2 centrada -->
+        <div style="width: 100%; max-width: 984px; display: flex; justify-content: center;">
+            <img src="https://static.wixstatic.com/media/620140_1e02f06f7e0442aaa4679b273118b379~mv2.jpg/v1/fill/w_1078,h_254,al_c,lg_1,q_80,enc_avif,quality_auto/620140_1e02f06f7e0442aaa4679b273118b379~mv2.jpg" 
+            alt="Fotografía amplia" class="image" style="width: 100%; height: auto; border-radius: 10px;">
+        </div>
+    </div>
+</section>
+
+
+
+
+        <section id="bellakas">
+            <h2>Bellakas</h2>
+            <p>Este espacio surgió por personalidades influyentes que han aceptado posar al lente de la de las tomas, agradecimientos para ellos y ellas por su confianza, por compartir y valorar este hermoso arte.
+Cada imagen revela un lado único de estas figuras, mostrando su verdadero yo en momentos genuinos y espontáneos. Desde artistas en ascenso hasta influencers destacados, esta categoría celebra a aquellos que brillan con luz propia, sin necesidad de grandes escenarios.</p>
+            <!-- Imagen Bellakas centrada -->
+            <div class="imagen-centro">
+<img src="https://static.wixstatic.com/media/620140_12b88ad187e9461287ce698f984ced47~mv2.jpg/v1/fill/w_995,h_918,al_c,q_85,enc_avif,quality_auto/620140_12b88ad187e9461287ce698f984ced47~mv2.jpg" alt="Imagen descriptiva" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+            </div>
+        </section>
+
+        <section id="estudios">
+            <h2>Estudios</h2>
+            <p>Nos dedicamos a capturar la esencia única de cada persona a través de retratos íntimos y expresivos. Cada fotografía busca contar una historia, capturando no solo la apariencia externa, sino también la personalidad, emociones y carácter de quien está frente a la cámara. Ya sea en un ambiente natural o controlado, nuestros retratos buscan transmitir la belleza auténtica y la fuerza interior de cada sujeto, creando imágenes que perduran en el tiempo y revelan lo que hace especial a cada individuo.</p>
+            <!-- Imagen Estudios centrada -->
+            <div class="imagen-centro">
+<img src="https://static.wixstatic.com/media/620140_975fdc9a3e384f558052490cb6c5711f~mv2.jpg/v1/fill/w_985,h_909,al_c,q_85,enc_avif,quality_auto/620140_975fdc9a3e384f558052490cb6c5711f~mv2.jpg" alt="Imagen descriptiva" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+            </div>
+        </section>
+
+        <section id="retratos">
+            <h2>Retratos</h2>
+            <p>os dedicamos a capturar la esencia única de cada persona a través de retratos íntimos y expresivos. Cada fotografía busca contar una historia, capturando no solo la apariencia externa, sino también la personalidad, emociones y carácter de quien está frente a la cámara. Ya sea en un ambiente natural o controlado, nuestros retratos buscan transmitir la belleza auténtica y la fuerza interior de cada sujeto, creando imágenes que perduran en el tiempo y revelan lo que hace especial a cada individuo.</p>
+            <!-- Imagen Retratos centrada -->
+            <div class="imagen-centro">
+<img src="https://static.wixstatic.com/media/620140_8ba7e0b9fd294f4495190b6ea1331cf2~mv2.jpg/v1/fill/w_980,h_906,al_c,q_85,enc_avif,quality_auto/620140_8ba7e0b9fd294f4495190b6ea1331cf2~mv2.jpg" alt="Imagen descriptiva" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+            </div>
+        </section>
+    </main>
+<!-- Contenido principal de la página -->
+<main>
+      <!-- Botón de regresar al inicio -->
+    <div style="text-align: center; padding: 20px;">
+        <button id="boton-inicio" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" style="font-size: 16px; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; background-color: #000; color: white;">
+            Volver al Inicio
+        </button>
+    </div>
+</main>
+
+<!-- Footer con derechos reservados -->
+<footer>
+    <p style="text-align: center; padding: 20px;">© 2024 Valentina y Deisy. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
